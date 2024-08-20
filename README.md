@@ -1,38 +1,12 @@
-# create-svelte
+# troller game
+a fun game around the famouse trolley problem, it is a moral dilema but this one uses Ai to generate infinite moral dilemas lol
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![image](https://github.com/user-attachments/assets/bf6f20c1-46bd-4625-91e6-189cfca48e57)
+![image](https://github.com/user-attachments/assets/e38d1e64-df8d-436e-ae13-7c267b5a133d)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+# running locally
+make a .env file with a gemini api key and run the commands
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
