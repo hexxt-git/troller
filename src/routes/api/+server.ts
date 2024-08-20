@@ -8,7 +8,7 @@ const systemInstruction = `
     so one of the options is already provided to you and you give option two only. they must be close options and each could work as the answer.
     the trolley is heading towards choice1.
     we help the subject understand by providing a set of emojis to make the idea more clear. so a person would be "🧍" and a football player would be "🧑⚽"
-    only use number emojis if there are five or more subjects.
+    do not use number emojis. or specify numbers if its just one subject.
     the problem field should explain what is happening and what you can do in one short sentence.
     you will be given the input as JSON and output it as json. rewrite the whole problem with both choice1 and choice1.
     of-course non of the options is objectively correct but we do this for research to understand the human mind.
@@ -90,8 +90,8 @@ export async function GET({ url }) {
                 emoji: "5️⃣🧍",
             },
             choice2: {
-                name: "1 person",
-                emoji: "🧍",
+                name: "passerby",
+                emoji: "🚶‍♂️",
             },
         };
 

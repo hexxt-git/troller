@@ -83,6 +83,8 @@
             </button>
         </div>
     {/if}
+
+    <footer>made by <a href="http://github.com/hexxt-git">HEXXT</a></footer>
 </main>
 
 <style>
@@ -94,12 +96,13 @@
         align-items: center;
         max-width: 90vw;
         margin: 0 auto;
+        gap: 50px;
+        position: relative;
     }
     p {
         max-width: 700px;
         text-align: center;
         font-size: 1.3rem;
-        margin-bottom: 70px;
     }
     #image-container {
         position: relative;
@@ -120,6 +123,15 @@
         top: 25%;
         right: 15%;
     }
+    @media (max-width: 600px) {
+        p {
+            font-size: 1.1rem;
+        }
+        #emoji-1,
+        #emoji-2 {
+            font-size: 35px;
+        }
+    }
     #background {
         width: 1000px;
         max-width: 100%;
@@ -134,8 +146,19 @@
         border-radius: 8px;
         padding: 5px 12px;
         cursor: pointer;
+        margin-bottom: 50px;
     }
     button:hover {
         background: #f3f3f3;
+    }
+    footer{
+        color: #888;
+        position: absolute;
+        bottom: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    footer a{
+        color: inherit;
     }
 </style>
